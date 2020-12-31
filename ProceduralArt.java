@@ -6,7 +6,6 @@ public class ProceduralArt extends PApplet{
     public static final int WIDTH = 840;
     public static final int HEIGHT = 752;
     public static final int radius=10;
-    PFont myFont;
     public static final int Ball1Height=HEIGHT*1/5;
     public static final int Ball2Height=HEIGHT*2/5;
     public static final int Ball3Height=HEIGHT*3/5;
@@ -16,7 +15,7 @@ public class ProceduralArt extends PApplet{
     public static final int speedOfBall3=3;
     public static final int speedOfBall4=4;
     int w,x,y,z=0;
-
+    PFont myFont; 
 
     public static void main(String args[]) {
         PApplet.main("ProceduralArt", args);
